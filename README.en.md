@@ -14,13 +14,13 @@ Give AI the question and make it explain the plain-language idea, the why, and a
 
 ---
 
-> **This is not another prompt collection.** It solves one problem: when you are stuck and no teacher is available, make AI teach the exact concept until you can explain it back.
+> Abstract subjects such as mathematics and physics are often difficult not because answers are hard to find, but because no teacher is nearby to explain **why a formula is used or how each step follows from the last.**
 
-## You may recognize these problems
+## When No Teacher Is Nearby
 
-- You found the answer but still do not understand *why*;
-- The video is too long to locate the one step where you are stuck;
-- AI's first explanation did not click, and you do not know how to follow up.
+- **Students learning on their own**: When an abstract idea or difficult problem does not make sense and no teacher is available, one missing concept can block everything that follows.
+- **Parents helping their children**: They want to help, but may not know where the child is stuck or how to explain a complex idea simply.
+- **One simple prompt can help**: Copy the template below, paste the question or upload a screenshot, and let AI act like an always-available one-to-one tutor. It finds the gap first, then explains with plain language, real-life examples, and step-by-step reasoning until the idea clicks.
 
 ## ⭐ One Core Prompt
 
