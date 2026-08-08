@@ -57,3 +57,15 @@ Use it with ChatGPT, Claude, DeepSeek, Gemini, Copilot, or another conversationa
 ## License
 
 [MIT](./LICENSE) — use it, adapt it, and share it freely. If this prompt helps one idea finally click, a ⭐ is appreciated.
+
+---
+
+## 🌟 Star History
+
+[![Star History Chart](assets/star-history.svg)](https://github.com/FanBroWell/simple-learning-prompts/stargazers)
+
+[![GitHub Stars](https://img.shields.io/github/stars/FanBroWell/simple-learning-prompts?style=for-the-badge&logo=github&label=Stars)](https://github.com/FanBroWell/simple-learning-prompts/stargazers)
+
+The chart is updated daily by GitHub Actions.
+
+If this project helps you, **give it a Star so more learners can find it** ⭐

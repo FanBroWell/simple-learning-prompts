@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="chart-title chart-desc">
+  <title id="chart-title">GitHub star history chart pending its first update</title>
+  <desc id="chart-desc">The GitHub Actions workflow will populate this self-hosted star history chart after its first successful run. No current star count is shown.</desc>
+  <rect width="800" height="450" rx="12" fill="#f6f8fa"/>
+  <text x="400" y="210" text-anchor="middle" fill="#24292f" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="600">Star history will appear after the first automated update.</text>
+  <text x="400" y="250" text-anchor="middle" fill="#57606a" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="16">This chart is generated from GitHub stargazer data.</text>
+</svg>
