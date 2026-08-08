@@ -42,7 +42,7 @@ def build_daily_series(
 ) -> list[Tuple[date, int]]:
     """Return daily cumulative star counts, including dates with no new stars."""
     if today is None:
-        today = date.today()
+        today = datetime.now(timezone.utc).date()
     if isinstance(today, datetime) or not isinstance(today, date):
         raise ValueError("today must be a date")
 
@@ -100,10 +100,10 @@ def render_svg(
         ".label{fill:#57606a;font:12px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}"
         ".heading{fill:#24292f;font:600 20px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}"
         ".summary{fill:#0969da;font:600 14px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}"
-        ".star-area{fill:#54aeff;fill-opacity:.22}.star-line{fill:none;stroke:#0969da;stroke-width:3}"
+        ".star-area{fill:#54aeff;fill-opacity:.22}.star-line{fill:none;stroke:#0969da;stroke-width:3}.star-point{fill:#0969da}"
         "@media (prefers-color-scheme: dark){.chart-bg{fill:#0d1117}.grid{stroke:#30363d}"
         ".label{fill:#8b949e}.heading{fill:#f0f6fc}.summary{fill:#58a6ff}"
-        ".star-area{fill:#1f6feb;fill-opacity:.35}.star-line{stroke:#58a6ff}}"
+        ".star-area{fill:#1f6feb;fill-opacity:.35}.star-line{stroke:#58a6ff}.star-point{fill:#58a6ff}}"
         "</style>",
         f"<title id=\"chart-title\">{title}</title>",
         f"<desc id=\"chart-desc\">Daily cumulative GitHub stars for {escaped_repository}.</desc>",
@@ -113,9 +113,9 @@ def render_svg(
     ]
 
     max_count = max(total_stars, 1)
-    for index in range(5):
-        count = round(max_count * index / 4)
-        y = baseline - chart_height * index / 4
+    grid_counts = sorted({round(max_count * index / 4) for index in range(5)})
+    for count in grid_counts:
+        y = baseline - chart_height * count / max_count
         lines.append(f'<line class="grid" x1="{left}" y1="{y:.2f}" x2="{width - right}" y2="{y:.2f}"/>')
         lines.append(f'<text class="label" x="{left - 10}" y="{y + 4:.2f}" text-anchor="end">{_format_number(count)}</text>')
 
@@ -138,6 +138,8 @@ def render_svg(
         )
         lines.append(f'<path class="star-area" d="{area_path}"/>')
         lines.append(f'<path class="star-line" d="{line_path}"/>')
+        if point_count == 1:
+            lines.append(f'<circle class="star-point" cx="{points[0][0]:.2f}" cy="{points[0][1]:.2f}" r="5"/>')
         date_label_indices = sorted({0, point_count // 2, point_count - 1})
         for index in date_label_indices:
             x, _ = points[index]
@@ -221,13 +223,20 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         prefix=f".{output.name}.", suffix=".tmp", dir=output.parent
     )
     temporary_output = Path(temporary_name)
+    descriptor_open = True
     try:
-        with os.fdopen(descriptor, "w", encoding="utf-8") as temporary_file:
+        temporary_file = os.fdopen(descriptor, "w", encoding="utf-8")
+        descriptor_open = False
+        with temporary_file:
             temporary_file.write(svg)
         os.replace(temporary_output, output)
     finally:
-        if temporary_output.exists():
+        if descriptor_open:
+            os.close(descriptor)
+        try:
             temporary_output.unlink()
+        except FileNotFoundError:
+            pass
     return 0
 
 
