@@ -2,52 +2,73 @@
 
 ## Positioning
 
-**Emotional pain + before/after contrast + an immediately usable solution**
+**Show the result, not just the concept:** a student copies one reusable Prompt with a question and receives a complete teacher-like explanation.
 
-- Pain: the student searched for answers but still does not understand.
-- Action: copy one prompt and send it together with the question.
-- Transformation: AI teaches the concept like a patient tutor instead of merely revealing an answer.
+- Pain: searched many answers, but still does not understand.
+- Action: copy the Prompt and send it with the question.
+- Visible outcome: AI explains the idea in plain language, gives the reason, uses a real-life analogy, solves it step by step, and checks understanding.
 
 ## Image generation prompt
 
 ```text
 Use case: ads-marketing
-Asset type: 16:9 GitHub README hero and shareable project cover
-Primary request: Create a premium editorial illustration for an open-source project that lets a student copy one prompt, attach a difficult homework question, and receive an AI explanation that feels like patient one-to-one tutoring. Tell a crystal-clear three-step story from left to right in one coherent scene.
+Asset type: 16:9 GitHub README hero and Chinese social-media cover
 
-LEFT — A natural-looking 12–14-year-old Chinese middle-school student with black hair and simple unbranded navy clothing sits alone at a desk, visibly stuck on a math problem in an open workbook. Cool gray-blue light, slightly tense but not exaggerated. A few abstract search panels suggest that looking up answers has not helped.
+Create a polished premium editorial illustration for an open-source AI learning prompt project. The image must clearly show not only the prompt input, but also the structured answer produced after using it.
 
-CENTER — Make the product action visually unmistakable. Show a large clean phone or tablet interface where an abstract prompt card is being copied into an AI chat together with a photographed homework problem. Use a recognizable copy icon, question-image thumbnail, and send arrow, but no readable text or letters. A clear flowing visual connector leads to the right.
+COMPOSITION PRIORITY:
+The RIGHT-SIDE AI answer dashboard must occupy about 52–58% of the canvas and be the single largest, clearest visual element. The left student and center input device should be smaller. The complete flow must read instantly from left to right: stuck student → copy prompt with question → complete teacher-like explanation.
 
-RIGHT — Show the same Chinese child attentive and relieved, now learning from an online tutor-style AI interface. Inside a large screen, show a warm and friendly Chinese teacher-style avatar pointing to a clean whiteboard with three elements: step-by-step reasoning, one familiar real-life analogy, and one small check-question card. The interaction must feel like teaching and dialogue, not simply revealing an answer.
+LEFT:
+Show a natural-looking 12–14-year-old Chinese student studying alone, frustrated after searching through several confusing answers. Use cool, dark gray-blue lighting. The student has an open workbook and looks stuck, but not dramatically sad. Show a few abstract, unreadable search-result cards around the workbook.
 
-Style: polished modern editorial illustration with realistic human proportions, warm and credible, crisp shapes, subtle depth, soft natural lighting, suitable for GitHub and Chinese social media. Not a stock photo collage and not childish cartoon art.
+CENTER:
+Show a clean smartphone or tablet interface receiving two distinct items: a photographed homework question and a reusable prompt card being copied into the conversation. Use a clear copy icon and send arrow. Keep all generated interface text abstract and unreadable. Make the transition arrow obvious but elegant.
 
-Composition: 16:9 landscape intended for 1600x900. Compact three-part composition. Keep the Chinese child, prompt-copy action, and tutor screen relatively close to the center so the story remains understandable at thumbnail size. Leave a wide quiet band across the upper center for deterministic Chinese headline typography later.
+RIGHT:
+Create a bright, polished AI tutoring answer dashboard. It must contain exactly FIVE large, clearly separated, mostly blank content cards with generous empty label areas for typography to be added later:
+1. a plain-language explanation card with simple speech-bubble icon and short abstract lines;
+2. a why-it-works reasoning card with a small cause-and-effect diagram;
+3. a familiar real-life analogy card with simple everyday-object illustration;
+4. a step-by-step solution card with visible numbered steps 1, 2, 3 and abstract equations;
+5. a short understanding-check card with a question mark and check symbol.
 
-Color: left side cool desaturated gray-blue; center clear blue; right side warm blue-green with a calm optimistic glow.
+The five cards must look like meaningful parts of a complete tutoring answer, not decorative pictures and not a search-results list. Leave enough clean blank space at the top of every card for deterministic Chinese or English labels. A subtle teacher-like pointer or guiding hand may appear, but no teacher character should dominate the dashboard. Show the same Chinese student on the far right edge becoming relaxed and engaged, but do not let the person cover the answer cards.
 
-Constraints: the student must clearly be a Chinese child, not an adult and not Western. Keep the same child identity on both sides. No readable text, letters, Chinese characters, gibberish typography, logos, watermarks, branded UI, school badges, graduation caps, robots, humanoid robot teachers, neon cyberpunk visuals, or exaggerated emotions. Do not render any headline or labels; all wording will be added later.
+TOP TYPOGRAPHY ZONE:
+Reserve a quiet, dark translucent band across the upper 20–23% of the image with no faces, icons, or UI elements so exact headline and subtitle can be added later.
+
+Style: modern premium editorial illustration, natural Chinese student, polished educational product visual, crisp UI cards, soft natural lighting, accessible contrast, warm blue-green clarity on the right, strong left-to-right transformation from confusion to clarity, professional and shareable, not childish.
+
+Output: landscape 16:9, designed for 1600×900, important content kept within safe margins.
+
+Avoid all readable text, Chinese characters, English words, gibberish typography, logos, watermarks, robots, cyberpunk visuals, Western students, childish cartoon style, clutter, tiny cards, illegible UI, and an answer panel containing only decorative pictures.
 ```
 
 ## Deterministic typography
 
 Chinese:
 
-- Headline: `不是你学不会，是一直没人把它讲明白。`
-- Subtitle: `把题目丢给 AI，让它用大白话、生活例子和“为什么”，一直讲到你懂。`
-- Call to action: `一个模板，复制就能用`
-- Steps: `搜了很多，还是不懂` → `题目 + Prompt 交给 AI` → `终于讲明白了`
+- Headline: `复制 Prompt 后，AI 会给你什么？`
+- Subtitle: `不是只给答案，而是像老师一样讲到你懂。`
+- Call to action: `一个 Prompt，获得一整套讲解`
+- Input label: `题目 + Prompt`
+- Transition label: `复制并发送`
+- Answer cards: `大白话解释` · `为什么` · `生活类比` · `分步解题` · `检查是否真懂`
 
 English:
 
-- Headline: `You are not bad at learning. It just was not explained clearly.`
-- Subtitle: `Give AI the question and make it explain the plain-language idea, the why, and a real-life example—until it clicks.`
-- Call to action: `One template. Copy and use it.`
+- Headline: `What do you get after using the prompt?`
+- Subtitle: `Not just an answer—an explanation that teaches until it clicks.`
+- Call to action: `One prompt. A complete tutoring answer.`
+- Input label: `Question + Prompt`
+- Transition label: `Copy & send`
+- Answer cards: `Plain-language idea` · `Why it works` · `Real-life analogy` · `Step by step` · `Check your understanding`
 
 ## Output requirements
 
 - Canvas: 1600 × 900, landscape PNG.
 - Preserve the text-free generation as `hero-background.png`.
 - Add exact Chinese text in `hero.png` and English text in `hero.en.png`.
+- Keep the answer dashboard as the largest visual element.
 - No AI-generated typography, logos, watermarks, or branded interfaces.
