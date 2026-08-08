@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="chart-title chart-desc">
-  <title id="chart-title">GitHub star history chart pending its first update</title>
-  <desc id="chart-desc">The GitHub Actions workflow will populate this self-hosted star history chart after its first successful run. No current star count is shown.</desc>
-  <rect width="800" height="450" rx="12" fill="#f6f8fa"/>
-  <text x="400" y="210" text-anchor="middle" fill="#24292f" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="600">Star history will appear after the first automated update.</text>
-  <text x="400" y="250" text-anchor="middle" fill="#57606a" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="16">This chart is generated from GitHub stargazer data.</text>
+<style>.chart-bg{fill:#ffffff}.grid{stroke:#d0d7de;stroke-width:1}.label{fill:#57606a;font:12px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}.heading{fill:#24292f;font:600 20px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}.summary{fill:#0969da;font:600 14px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}.star-area{fill:#54aeff;fill-opacity:.22}.star-line{fill:none;stroke:#0969da;stroke-width:3}.star-point{fill:#0969da}@media (prefers-color-scheme: dark){.chart-bg{fill:#0d1117}.grid{stroke:#30363d}.label{fill:#8b949e}.heading{fill:#f0f6fc}.summary{fill:#58a6ff}.star-area{fill:#1f6feb;fill-opacity:.35}.star-line{stroke:#58a6ff}.star-point{fill:#58a6ff}}</style>
+<title id="chart-title">FanBroWell/simple-learning-prompts Star History</title>
+<desc id="chart-desc">Daily cumulative GitHub stars for FanBroWell/simple-learning-prompts.</desc>
+<rect class="chart-bg" width="800" height="450" rx="12"/>
+<text class="heading" x="72" y="30">FanBroWell/simple-learning-prompts Star History</text>
+<text class="summary" x="72" y="50">1 Stars</text>
+<line class="grid" x1="72" y1="372.00" x2="764" y2="372.00"/>
+<text class="label" x="62" y="376.00" text-anchor="end">0</text>
+<line class="grid" x1="72" y1="58.00" x2="764" y2="58.00"/>
+<text class="label" x="62" y="62.00" text-anchor="end">1</text>
+<path class="star-area" d="M 72.00,372.00 L 72.00,58.00 L 72.00,372.00 Z"/>
+<path class="star-line" d="M 72.00,58.00"/>
+<circle class="star-point" cx="72.00" cy="58.00" r="5"/>
+<text class="label" x="72.00" y="396.00" text-anchor="middle">2026-08-08</text>
 </svg>
