@@ -2,105 +2,125 @@
 
 **🌐 English ｜ [中文](./README.md)**
 
-# 🌱 Learn a Little Every Day
-### Simple Learning Prompts
-**When there's no one around to ask, turn AI into the teacher who's always available — and actually makes sense.**
+# You are not bad at learning. It just was not explained clearly.
 
-One universal template. Copy, fill in the blank, send. No willpower, no planning.
-Understand one small thing each day, and quietly build your own knowledge base.
+### Give AI the question and make it explain the plain-language idea, the why, and a real-life example—until it clicks.
 
-`one template for everything` · `ask anytime` · `explain-like-I'm-5 examples` · `compounds over time` · `save to Notion`
+![From searching without understanding to sending the question and prompt to AI and receiving a tutor-like explanation](./assets/hero.en.png)
+
+**One template. Copy and use it immediately.**
+
+`ask with a screenshot` · `plain-language explanations` · `follow up until it clicks` · `explain-it-back check`
 
 </div>
 
 ---
 
-## 😣 The Two Pain Points It Solves
+> **This is not another prompt collection.** It solves one problem: when you are stuck and no teacher is available, make AI teach the exact concept in front of you until you can explain it back.
 
-### Pain #1: You're studying alone and stuck — with no one to ask
-Homework at night, practice on weekends, cramming before an exam — **exactly when no teacher is around.**
-One problem stumps you, one concept won't click, and you just sit there. Questions pile up, and the more they pile, the less you want to study.
-Answer-scanning apps give you *the answer* but never *the why*; videos are too long to find that one sentence you need.
-**What you need is someone who can explain this one point until you truly get it, right now.**
+## 🚀 Start in 30 Seconds
 
-### Pain #2: You're a parent who wants to help — but doesn't know how to explain it
-Your kid brings you a question and you want to help —
-but either **you've forgotten it (or never learned it)**, or **you understand it but can't put it in words a child gets**,
-and the frustration can strain the relationship.
-**You don't lack patience — you lack a helper that translates the textbook into kid-friendly words + a good example.**
+1. Screenshot or copy the problem, concept, or passage you do not understand;
+2. Copy the universal prompt below;
+3. Replace the `【】` fields and send the prompt together with your question or screenshot;
+4. Point to the exact step that still does not click, and ask for a new explanation and analogy;
+5. Explain it back in your own words so AI can find the real gap in your understanding.
 
-> This library does exactly one thing: **make "no one to ask" and "don't know how to explain" stop being obstacles.**
+Use it with conversational AI tools such as ChatGPT, Claude, DeepSeek, Gemini, or Copilot.
 
----
+## ⭐ Universal Prompt: Turn AI Into an On-Demand Tutor
 
-## ⭐ One Universal Template (this is all of it)
+Copy the full prompt and replace the `【】` fields:
 
-Forget memorizing 7 templates — **just this one works for everything.** Copy it, replace the `【】` with your content, and send it to any AI (you can attach a screenshot of the problem/textbook).
+```text
+Please help me like a patient one-to-one tutor.
 
+I am studying 【subject / topic】, and this is where I am stuck:
+【paste the problem, concept, or passage, or attach a screenshot】
+
+I have already searched for an explanation, but I still do not truly understand it. Do not just give me the answer. Teach it until I can explain it back:
+
+1. First identify the concept or skill this question is actually testing;
+2. Explain the core idea in plain language without starting with jargon;
+3. Walk through the “why” step by step without skipping reasoning;
+4. Give me a simple real-life analogy that builds intuition;
+5. If there is a solution process, explain why each step is taken;
+6. Point out the part learners most often misunderstand or get wrong;
+7. If I say “I still don't get it,” use a different explanation and a brand-new example, focusing only on the step where I am stuck.
+
+After teaching it, ask me to explain it back in my own words. Use my explanation to identify the exact gap, correct it, and then give me one short check question to confirm that I really understand.
 ```
-I'm trying to understand 【what you want to get: a concept / a problem / a passage / your kid's question】, and there's no one around to ask.
-Please make it clear for me:
-1. Use plain language, no jargon;
-2. First tell me what it's actually about and what problem it solves (the core idea);
-3. Explain the "why", don't just give the conclusion;
-4. Use a real-life example a child could understand;
-5. Give me a memorable hook / mnemonic;
-6. If I still don't get it, I'll follow up — please re-explain it a simpler way with a new example.
-Use clear bullet points so I can save it to my notes.
-```
 
-**Send it to any AI: ChatGPT / Claude / Gemini / DeepSeek / Copilot… any of them.**
+## 🧭 It Does Not Just Solve the Problem—It Recreates Four Tutor Behaviors
 
----
-
-## 🎛️ Just Add One Line for Your Situation
-
-Same template — **add one line at the top** to fit any case:
-
-| Your situation | Add this at the start |
+| What a learner actually needs | What this prompt makes AI do |
 |---|---|
-| 👶 **Parent helping a kid** | "I need to explain this to a 【grade】 child — use words and examples that age gets, and suggest a small activity we can do together." |
-| ✏️ **Stuck on a problem** | "This is a problem 【attach screenshot】 — don't just give the answer; explain why each option is right/wrong and how to recognize this type next time." |
-| 📄 **Paper/long passage** | "Go paragraph by paragraph: translate + explain in plain language, and translate every symbol in any formula into plain words." |
-| 💼 **New skill, fast** | "I'm a total beginner — also tell me the 3 core concepts to learn first and the common pitfalls." |
-| ❓ **Still confused** | "I mostly got it, but 【this one point】 still doesn't click — re-explain just that with a brand-new kid-friendly example." |
-| 📝 **Make it stick** | "Finally, summarize this topic into a knowledge map — one plain-language line + a memory hook per point." |
+| **Find the sticking point** | Identify what the question tests before giving an answer |
+| **Make the idea understandable** | Build intuition with plain language, steps, and a real-life analogy |
+| **Allow repeated questions** | Re-explain only the confusing step in a genuinely different way |
+| **Check real understanding** | Ask you to explain it back, correct the gap, and give a short check question |
 
----
+Instead of receiving one answer, you complete a learning loop:
 
-## 🧩 The Core Formula (the soul of the template)
+> **Get stuck → Ask → Understand → Explain it back → Correct the gap → Solve a similar problem**
 
-> **Plain language + What's the core concept + Why + An example a child would get + How to remember it**
+## 🔍 Why Ordinary Questions Often Fail
 
-Even if you forget the template, remember this one line and you'll ask great questions on your own.
+| The problem with a typical question | How this template fixes it |
+|---|---|
+| “Give me the answer” only finishes the current problem | Identify the core concept and explain why it works |
+| The first explanation is too abstract | Require a different explanation and a new real-life analogy |
+| It feels clear now but disappears later | Add a memory hook, explain-it-back step, and check question |
+| You do not know where your misunderstanding begins | Let AI diagnose the gap from your own explanation |
 
----
+## 🧪 A Tiny Before-and-After Example
 
-## 🔁 Turn It Into a Daily Habit
+Question: **Why does a negative times a negative become positive?**
 
-> The enemy of learning isn't difficulty — it's "too much hassle to keep up." The simpler it is, the longer you'll last.
+**When you only ask for the answer:**
 
-- **🎯 Just one thing**: understanding one small point a day is a win. Don't overreach.
-- **📸 Snap and ask**: problems, textbooks, errors, a kid's question — screenshot and send, zero typing.
-- **📋 Always save**: save entries one by one into Notion / Notes — this is the key to staying consistent.
-- **🔂 Keep asking**: dig layer by layer until "oh, I get it now."
-- **🧪 Quiz yourself sometimes**: add "give me 3 questions to test me" — you'll remember best.
-- **📅 Look back**: review your notes weekly — you'll be amazed how much you now understand.
+> It is a mathematical rule: multiplying two negative numbers gives a positive number.
 
----
+You now know the rule, but not why it makes sense.
 
-## 🌍 For Everyone
+**With this prompt:**
 
-Self-study · Parents helping kids · Exam prep · Upskilling at work · Reading papers · Teaching elders to use phones · Explaining your field to clients · Any moment you want to understand something but have no one to ask.
+- It first connects the rule to multiplication patterns and direction on a number line;
+- It builds intuition with a real-life analogy such as cancelling a debt;
+- It walks through why the arithmetic rules must remain consistent;
+- It asks you to explain the idea back;
+- It finishes with one small variation to check whether the idea transfers.
 
----
+The difference is not simply a longer answer. It is a real teaching interaction.
+
+## 🎛️ Add One Line for Your Situation
+
+| Your situation | Add this sentence |
+|---|---|
+| ✏️ **Stuck on a problem** | “Do not just give the result. Explain why each step is taken and how to recognize this problem type next time.” |
+| 📄 **Paper or long passage** | “Go paragraph by paragraph in plain language, and translate every symbol in each formula into words.” |
+| 💼 **Learning a new skill** | “I am a complete beginner. Start with the three concepts that matter most and the common misconceptions.” |
+| 📝 **Review and memory** | “Finish with a knowledge map, one plain-language sentence and one memory hook per idea.” |
+| 👶 **Helping a child** | “I need to teach this to a child in 【grade】. Use familiar examples and suggest one small activity we can do together.” |
+
+## 🔁 Turn One Answer Into Real Learning
+
+- **Show your attempt first**: tell AI how far you got so it can locate the gap faster;
+- **Follow up precisely**: point to the exact sentence or step that still does not click;
+- **Always explain it back**: being able to say it in your own words is stronger evidence than recognition;
+- **Try one variation**: make sure you can still solve it when the numbers or wording change;
+- **Save the misconception**: remembering where your thinking went wrong is more useful than collecting answers.
+
+## 🌍 Who It Is For
+
+Independent study · Exam preparation · Reading papers · Learning at work · Parents helping children · Any moment when you have a question but no one available to explain it clearly.
 
 ## 📄 License
 
-[MIT](./LICENSE) — use it, change it, share it freely. A ⭐ is appreciated.
+[MIT](./LICENSE) — use it, adapt it, and share it freely. If it helps one idea finally click, a ⭐ is appreciated.
 
 <div align="center">
 
-**When no one's there to answer, you can still keep learning. A little every day — simple, but something you can keep doing.** 🌱
+**Copy one prompt and give yourself a tutor you can keep asking.**
 
 </div>
