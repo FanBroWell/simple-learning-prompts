@@ -4,9 +4,9 @@
 
 # You are not bad at learning. It just was not explained clearly.
 
-### When you get stuck, copy the prompt and send it with your question.
+### Give AI the question and make it explain the plain-language idea, the why, and a real-life example—until it clicks.
 
-Make AI respond like a patient one-to-one tutor: not just giving the answer, but explaining the concept, the why, new examples, and checking whether you truly understand.
+![From searching without understanding to sending the question and prompt to AI and receiving a tutor-like explanation](./assets/hero.en.png)
 
 **One template. Copy and use it immediately.**
 
