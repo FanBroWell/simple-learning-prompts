@@ -57,3 +57,15 @@
 ## License
 
 [MIT](./LICENSE) — 可以自由使用、修改和分享。如果这个 Prompt 帮你讲懂了一个问题，欢迎点个 ⭐。
+
+---
+
+## 🌟 Star History
+
+[![Star History Chart](assets/star-history.svg)](https://github.com/FanBroWell/simple-learning-prompts/stargazers)
+
+[![GitHub Stars](https://img.shields.io/github/stars/FanBroWell/simple-learning-prompts?style=for-the-badge&logo=github&label=Stars)](https://github.com/FanBroWell/simple-learning-prompts/stargazers)
+
+曲线由 GitHub Actions 每日自动更新。
+
+如果这个项目对你有帮助，**点个 Star 让更多人看到** ⭐

@@ -1,0 +1,63 @@
+name: Update star history
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 * * *'
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/update-star-history.yml
+      - scripts/generate_star_history.py
+      - tests/test_generate_star_history.py
+      - tests/test_star_history_workflow.py
+
+permissions:
+  contents: read
+
+concurrency:
+  group: update-star-history
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - name: Run tests
+        run: python3 -m unittest -v
+
+  update:
+    needs: test
+    if: github.ref == 'refs/heads/main'
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - name: Generate chart
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/generate_star_history.py --output assets/star-history.svg
+      - name: Commit updated chart
+        run: |
+          git add -- assets/star-history.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          if [ "$(git diff --cached --name-only)" != "assets/star-history.svg" ]; then
+            echo "Only assets/star-history.svg may be committed."
+            exit 1
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --only -m "docs: update star history chart" -- assets/star-history.svg
+          git push origin HEAD:main
