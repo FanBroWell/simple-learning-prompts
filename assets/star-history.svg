@@ -10,8 +10,9 @@
 <text class="label" x="62" y="376.00" text-anchor="end">0</text>
 <line class="grid" x1="72" y1="58.00" x2="764" y2="58.00"/>
 <text class="label" x="62" y="62.00" text-anchor="end">1</text>
-<path class="star-area" d="M 72.00,372.00 L 72.00,58.00 L 764.00,58.00 L 764.00,372.00 Z"/>
-<path class="star-line" d="M 72.00,58.00 L 764.00,58.00"/>
+<path class="star-area" d="M 72.00,372.00 L 72.00,58.00 L 418.00,58.00 L 764.00,58.00 L 764.00,372.00 Z"/>
+<path class="star-line" d="M 72.00,58.00 L 418.00,58.00 L 764.00,58.00"/>
 <text class="label" x="72.00" y="396.00" text-anchor="middle">2026-08-08</text>
-<text class="label" x="764.00" y="396.00" text-anchor="middle">2026-08-09</text>
+<text class="label" x="418.00" y="396.00" text-anchor="middle">2026-08-09</text>
+<text class="label" x="764.00" y="396.00" text-anchor="middle">2026-08-10</text>
 </svg>
